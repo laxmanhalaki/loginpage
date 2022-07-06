@@ -26,7 +26,7 @@ const history=useHistory()
         .then(res=>{
             alert(res.data.message)
             setLoginUser(res.data.user)
-            history.push("/")
+            history.push("/loginpage")
         })
     }  
     

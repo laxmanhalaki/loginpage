@@ -8,10 +8,9 @@ const Login=({setLoginUser})=>{
 const history=useHistory()
 
     const[user,setuser]=useState({
-        namae:"",
+        
         email:"",
-        password:"",
-        reenterpassword:""
+        password:""
     }) 
     const handlechange= e =>{
         const { name,value } = e.target
